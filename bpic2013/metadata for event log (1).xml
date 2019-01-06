@@ -1,0 +1,136 @@
+<metadata>
+   <doi>doi:10.4121/10.4121/500573e6-accc-4b0c-9576-aa5468b10cee</doi>
+   <name>BPI Challenge 2013, incidents.xes.gz</name>
+   <description>Log of Volvo IT incident management system</description>
+   <language>English</language>
+   <log_type>Real-life</log_type>
+   <process_type>Ad-Hoc structured</process_type>
+   <creation>
+   <insitute>Ghent University</insitute>
+   <person>Ward Steeman</person>
+   <place>Eindhoven</place>
+   <time>Fri Apr 12 00:00:00 CEST 2013</time>
+   </creation>
+   <source>
+   <insitute>Volvo IT</insitute>
+   <institute_type>Private company</institute_type>
+   <model>none</model>
+   <program>VINST</program>
+   </source>
+   <rights type="Public">
+   </rights>
+   <number_of_traces>7554</number_of_traces>
+   <number_of_events>65533</number_of_events>
+   <events_per_trace>8.675</events_per_trace>
+   <min_events_per_trace>1</min_events_per_trace>
+   <max_events_per_trace>123</max_events_per_trace>
+   <global_attributes>
+      <trace_level>
+         <attribute key="concept:name" default="UNKNOWN"/>
+      </trace_level>
+      <event_level>
+         <attribute key="concept:name" default="UNKNOWN"/>
+         <attribute key="impact" default="UNKNOWN"/>
+         <attribute key="lifecycle:transition" default="UNKNOWN"/>
+         <attribute key="org:group" default="UNKNOWN"/>
+         <attribute key="org:resource" default="UNKNOWN"/>
+         <attribute key="org:role" default="UNKNOWN"/>
+         <attribute key="organization country" default="UNKNOWN"/>
+         <attribute key="organization involved" default="UNKNOWN"/>
+         <attribute key="product" default="UNKNOWN"/>
+         <attribute key="resource country" default="UNKNOWN"/>
+         <attribute key="time:timestamp" default="1970-01-01T00:00:00+01:00"/>
+      </event_level>
+   </global_attributes>
+   <meta_extensions>
+      <MetaData_Concept prefix="meta_concept" uri="http://www.xes-standard.org/meta_concept.xesext">
+         <different_names_average>2.597</different_names_average>
+         <different_names_max>4</different_names_max>
+         <different_names_min>1</different_names_min>
+         <different_names_standard_deviation>0.493</different_names_standard_deviation>
+         <different_names_total>4</different_names_total>
+         <named_events_average>8.675</named_events_average>
+         <named_events_max>123</named_events_max>
+         <named_events_min>1</named_events_min>
+         <named_events_standard_deviation>7.626</named_events_standard_deviation>
+         <named_events_total>65533</named_events_total>
+      </MetaData_Concept>
+      <MetaData_General prefix="meta_general" uri="http://www.xes-standard.org/meta_general.xesext">
+         <classifiers>2</classifiers>
+         <events_average>8.675</events_average>
+         <events_max>123</events_max>
+         <events_min>1</events_min>
+         <events_standard_deviation>7.626</events_standard_deviation>
+         <events_total>65533</events_total>
+         <traces_total>7554</traces_total>
+      </MetaData_General>
+      <MetaData_LifeCycle prefix="meta_life" uri="http://www.xes-standard.org/meta_life.xesext">
+         <different_transitions_average>4.169</different_transitions_average>
+         <different_transitions_max>9</different_transitions_max>
+         <different_transitions_min>1</different_transitions_min>
+         <different_transitions_standard_deviation>1.601</different_transitions_standard_deviation>
+         <different_transitions_total>13</different_transitions_total>
+         <transition_events_average>8.675</transition_events_average>
+         <transition_events_max>123</transition_events_max>
+         <transition_events_min>1</transition_events_min>
+         <transition_events_standard_deviation>7.626</transition_events_standard_deviation>
+         <transition_events_total>65533</transition_events_total>
+      </MetaData_LifeCycle>
+      <MetaData_Organization prefix="meta_org" uri="http://www.xes-standard.org/meta_org.xesext">
+         <different_groups_average>1.817</different_groups_average>
+         <different_groups_max>12</different_groups_max>
+         <different_groups_min>1</different_groups_min>
+         <different_groups_standard_deviation>1.042</different_groups_standard_deviation>
+         <different_groups_total>649</different_groups_total>
+         <different_resources_average>3.205</different_resources_average>
+         <different_resources_max>24</different_resources_max>
+         <different_resources_min>1</different_resources_min>
+         <different_resources_standard_deviation>2.202</different_resources_standard_deviation>
+         <different_resources_total>1440</different_resources_total>
+         <different_roles_average>1.438</different_roles_average>
+         <different_roles_max>7</different_roles_max>
+         <different_roles_min>1</different_roles_min>
+         <different_roles_standard_deviation>0.699</different_roles_standard_deviation>
+         <different_roles_total>24</different_roles_total>
+         <group_events_average>8.675</group_events_average>
+         <group_events_max>123</group_events_max>
+         <group_events_min>1</group_events_min>
+         <group_events_standard_deviation>7.626</group_events_standard_deviation>
+         <group_events_total>65533</group_events_total>
+         <resource_events_average>8.675</resource_events_average>
+         <resource_events_max>123</resource_events_max>
+         <resource_events_min>1</resource_events_min>
+         <resource_events_standard_deviation>7.626</resource_events_standard_deviation>
+         <resource_events_total>65533</resource_events_total>
+         <role_events_average>8.675</role_events_average>
+         <role_events_max>123</role_events_max>
+         <role_events_min>1</role_events_min>
+         <role_events_standard_deviation>7.626</role_events_standard_deviation>
+         <role_events_total>65533</role_events_total>
+      </MetaData_Organization>
+      <MetaData_Time prefix="meta_time" uri="http://www.xes-standard.org/meta_time.xesext">
+         <duration_average>1043655.35</duration_average>
+         <duration_max>6.6644793E7</duration_max>
+         <duration_min>0.0</duration_min>
+         <duration_standard_deviation>2468905.658</duration_standard_deviation>
+         <duration_total>7.883772512E9</duration_total>
+         <log_duration>6.7681363E7</log_duration>
+         <log_end_time>2012-05-23T01:22:25+02:00</log_end_time>
+         <log_start_time>2010-03-31T16:59:42+02:00</log_start_time>
+      </MetaData_Time>
+   </meta_extensions>
+   <extensions>
+      <Completeness_Metrics prefix="meta_completeness" uri="http://www.xes-standard.org/meta_completeness.xesext">
+         <completeness>MULTIPLE</completeness>
+      </Completeness_Metrics>
+      <Concept prefix="concept" uri="http://www.xes-standard.org/concept.xesext">
+         <name>BPI Challenge 2013, incidents</name>
+      </Concept>
+      <Lifecycle prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext">
+      </Lifecycle>
+      <Organizational prefix="org" uri="http://www.xes-standard.org/org.xesext">
+      </Organizational>
+      <Time prefix="time" uri="http://www.xes-standard.org/time.xesext">
+      </Time>
+   </extensions>
+</metadata>
